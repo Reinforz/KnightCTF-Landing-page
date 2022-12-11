@@ -5,7 +5,7 @@ export const TickerCell = ({ label, value }) => {
 
     return (
         <div class="flex-1 items-center flex-col ">
-            <span class="text-5xl text-red-400" >{ formattedValue }</span>
+            <span class="text-5xl text-[#e90e4c]" >{ formattedValue }</span>
             <span class="text-white" >{ label }</span>
         </div>
     );
